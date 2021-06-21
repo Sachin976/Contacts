@@ -1,7 +1,7 @@
 const fs = require('fs')
 
 const loadContacts = ()=>{
-    const buffer = fs.readFileSync('./controller/utils/contacts.json')
+    const buffer = fs.readFileSync('./src/utils/contacts.json')
     const jsonData = buffer.toString()
     if(!jsonData){
         return []
@@ -11,7 +11,7 @@ const loadContacts = ()=>{
 }
 const saveContacts = (data)=>{
     jsonData = JSON.stringify(data)
-    fs.writeFileSync('./controller/utils/contacts.json',jsonData)
+    fs.writeFileSync('./src/utils/contacts.json',jsonData)
 }
 
 module.exports = {

@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node controller/router.js",
-    "dev": "nodemon controller/router.js -e js,hbs,css"
+    "start": "node src/main.js",
+    "dev": "nodemon src/main.js -e js,hbs,css"
   },
   "keywords": [],
   "author": "",
