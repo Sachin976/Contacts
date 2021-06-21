@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>Add contact</title>
+        <link rel="icon" href="/img/Profile.png">
+        <link rel="stylesheet" href="/css/style.css">
+    </head>
+    <body>
+        <div class="main-content">
+            {{>header}}
+            <div class="centered-form">
+                <div class="centered-form__box">
+                    <form id="add-contact">
+                        <label >First name</label>
+                        <input id="First-name" type="text" placeholder="First name" > 
+                        <label >Surname</label>
+                        <input id="Surname" type="text" placeholder="Surname">
+                        <label >Phone</label>
+                        <input id="Phone" type="tel" placeholder="Phone no.">
+                        <label >Phonetic first name</label>
+                        <input id="Phonetic-first-name" type="text" placeholder="Phonetic first name">
+                        <label >Phonetic middle name</label>
+                        <input id="Phonetic-middle-name" type="text" placeholder="Phonetic middle name">
+                        <label >Phonetic surname</label>
+                        <input id="Phonetic-surname" type="text" placeholder="Phonetic surname">
+                        <label >Nickname</label>
+                        <input id="Nickname" type="text" placeholder="Nickname">
+                        <label >File as</label>
+                        <input id="File-as" type="text" placeholder="File as">
+                        <label >Company</label>
+                        <input id="Company" type="text" placeholder="Company">
+                        <label >Department</label>
+                        <input id="Department" type="text" placeholder="Department">
+                        <label >Title</label>
+                        <input id="Title" type="text" placeholder="Title">
+                        <button>Save</button>
+                    </form>
+                </div>
+            </div>
+            
+        </div>
+        {{>footer}}
+        <script src="/js/add.js"></script>
+    </body>
+</html>

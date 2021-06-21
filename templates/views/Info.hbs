@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact</title>
+        <link rel="icon" href="/img/Profile.png">
+        <link rel="stylesheet" href="/css/style.css">
+    </head>
+    <body>
+        <div class="main-content">
+            {{>header}}
+            <h1><span style="font-weight: bold; font-size:24px; color:yellowgreen">{{title}}</span></h1>
+            <p> <span style="font-weight: bold; color:yellowgreen; ">Phone :</span> {{phone}}</p>
+            <p><span style="font-weight: bold; color:yellowgreen; ">Phonetic first name :</span> {{phonetic_first_name}}</p>
+            <p><span style="font-weight: bold; color:yellowgreen; ">Phonetic middle name :</span> {{phonetic_middle_name}}</p>
+            <p><span style="font-weight: bold; color:yellowgreen; ">Phonetic surname :</span> {{phonetic_surname}}</p>
+            <p><span style="font-weight: bold; color:yellowgreen; ">Nickname :</span> {{nickname}}</p>
+            <p><span style="font-weight: bold; color:yellowgreen; ">Company:</span> {{company}}</p>
+            <p><span style="font-weight: bold; color:yellowgreen; ">Department :</span> {{department}}</p>
+            <p><span style="font-weight: bold; color:yellowgreen; ">Title :</span> {{Title}}</p>
+            <p><span style="font-weight: bold; color:yellowgreen; ">File as :</span> {{fileas}}</p>
+        </div>
+        {{>footer}}
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.6.0/qs.min.js"></script>
+        <script src="/js/info.js"></script>
+    </body>
+</html>
